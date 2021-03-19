@@ -1,5 +1,6 @@
 # Network_Attached_Storage Project Description:
 Keywords: Public Cloud Services, Replication, Vendor Lock-in, Object Storage
+
 In this project, we will be designing a NAS (network-attached storage) backed by three public 
 cloud storage services. These cheap, scalable, and highly reliable cloud storage services are 
 available for both internal use of the cloud and external access of client-side applications. The variety 
@@ -16,3 +17,5 @@ Through the Python CLI, users can access files without knowing how data are actu
 The files stored in RAID-on-Cloud will be replicated across three cloud providers, AWS S3, Azure Blob Storage, and Google Cloud Storage, in a RAID-5 style (without parity bits).
 The minimum RAID-5 setup requires at least three storage media, with each block replicated to at least two locations. 
 The file blocks must be stored as objects in the cloud storage services, and the storage sizes in all three cloud storage services must be equally distributed.
+
+The CSCE678 Spring 2021- Design NAS.pdf explains the project, implementation and steps in detail
